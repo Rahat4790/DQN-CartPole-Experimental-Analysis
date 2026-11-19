@@ -1,0 +1,18 @@
+
+"""Baseline DQN hyperparameters for CartPole-v1."""
+
+BATCH_SIZE = 128
+GAMMA = 0.99
+
+EPS_START = 0.90
+EPS_END = 0.01
+EPS_DECAY = 2500
+
+TAU = 0.005
+LR = 0.0003
+
+REPLAY_MEMORY_CAPACITY = 10000
+HIDDEN_UNITS = 128
+GRADIENT_CLIP_VALUE = 100
+
+ENV_ID = "CartPole-v1"
